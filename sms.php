@@ -2,11 +2,10 @@
 require_once __DIR__.'/Lib/Thrift.php';
  
  
-$client = new Thrift(array('115.231.106.226:29090',));
-$client->setServer('go.micro.srv.sms');
+// $client = new Thrift(array('115.231.106.226:29091',));
+// $client->setServer('go.micro.srv.sms');
 
-//18701343768
-//18660126860
+ 
 $responseObj = $client->setMethod('Sms.SendSMS')
     ->setParams([
         "type"      => 1,
