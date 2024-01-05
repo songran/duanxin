@@ -9,7 +9,7 @@ require_once __DIR__.'/Lib/Thrift.php';
 $responseObj = $client->setMethod('Sms.SendSMS')
     ->setParams([
         "type"      => 1,
-        "phone"     => '18660126860',
+        "phone"     => '1342233222',
         "tplId"     => '2',
         "tplParams" => json_encode(array('测试测试')) ,
  
