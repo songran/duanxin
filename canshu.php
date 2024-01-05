@@ -3,7 +3,7 @@
 $arr = array(
 
 	 "type"      => 1,
-     "phone"     => (string)'18660126860',
+     "phone"     => (string)'1342233222',
      "tplId"     => (string)'2',
      "tplParams" => json_encode(array('hello word')) ,
 );
